@@ -1,0 +1,204 @@
+* {margin: 0; padding: 0; box-sizing: border-box; font-family: 'Overpass', sans-serif;}
+
+h3 {
+    font-weight: bold;
+    color: hsl(208, 49%, 24%);
+}
+p {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 12px;
+}
+
+header {
+    background-image: url(images/bg-pattern-intro.svg), linear-gradient(150deg, hsl(13, 100%, 72%), hsl(353, 100%, 66%) 70%);
+    background-repeat: no-repeat;
+    background-size: 350vw;
+    background-position: 35% 35%;
+    border-radius: 0 0 0 80px;
+    padding: 8vw;
+    height: 140vw;
+    position: relative;
+}
+
+.header__top {
+    display: block;
+}
+.header__logo {
+    float: left;
+}
+.header__logo .logo {
+    width: 25vw;
+}
+
+.header__open_close {
+    float: right;
+}
+.header__open_close .close_menu {
+    display: none;
+}
+
+.header__menu {
+    display: none;
+    margin-top: 15vw;
+    box-shadow: 0 2vw 4vw 0 rgba(0, 0, 0, 0.144);
+}
+.header__menu ul {
+    list-style: none;
+    padding: 5vw;
+    text-align: center;
+    font-weight: bold;
+    color: hsl(237, 17%, 21%);
+    line-height: 3;
+    background: #fff;
+    border-radius: 2vw;
+    max-height: 320vw;
+}
+.header__menu li {
+    width: 100%;
+}
+.content-submenu {
+    display: none;
+}
+.content-submenu ul {
+    background: #f0f0f0;
+    border-radius: 2vw;
+}
+.content-submenu li {
+    color: hsl(237, 23%, 32%);
+}
+.menu_actions {
+    border-top: 2px solid #f3f3f3;
+    margin-top: 10vw;
+}
+.login-btn-content {
+    margin-top: 2vw;
+}
+.btn-login {
+    color: hsl(237, 17%, 21%);
+    width: 100%;
+    text-decoration: none;
+    padding: 5vw 10vw;
+}
+.btn-signup {
+    text-decoration: none;
+    color: #fff;
+    background: linear-gradient(150deg, hsl(13, 100%, 72%), hsl(353, 100%, 66%) 70%);
+    padding: 5vw 10vw;
+    border-radius: 10vw;
+}
+
+.header__content {
+    float: left;
+    margin-top: 20vw;
+    color: white;
+}
+.header__content h1 {
+    font-weight: 600;
+    text-align: center;
+    font-size: 30px;
+}
+.header__content p {
+    text-align: center;
+    margin-top: 4vw;
+    font-size: 5vw;
+    color: white;
+}
+.header__content .content__actions {
+    margin-top: 12vw;
+    text-align: center;
+}
+.btn {
+    border: 1px solid #fff;
+    background: #fff;
+    color:hsl(353, 100%, 66%);
+    font-size: 4.5vw;
+    width: 38vw;
+    padding: 4vw;
+    border-radius: 10vw;
+    font-weight: 600;
+}
+.n-btn {
+    background: transparent;
+    color: #fff
+}
+
+/* SECTIONS */
+.section__dff {
+    margin-top: 20vw;
+    text-align: center;
+}
+.main-image- {
+    text-align: center;
+}
+.main-image- img{
+    margin: 10vw 0 10vw 0;
+    width: 55vmax;
+}
+.section__dff h1 {
+    color: hsl(208, 49%, 24%);
+}
+.articles-section-main article{
+    padding: 0 10vw;
+    margin-bottom: 10vw;
+    text-align: center;
+}
+.articles-section-main h3 {
+    font-size: 20px;
+    margin-bottom: 5vmin;
+}
+.articles-section-main p {
+    font-size: 13px;
+    line-height: 1.7;
+    color: hsl(207, 13%, 34%);
+}
+
+.section__sai {
+    color: white;
+    background-image: url(images/bg-pattern-circles.svg);
+    background-repeat: no-repeat;
+    background-size: 162vw;
+    background-color: hsl(237, 17%, 21%);
+    background-position: top -40vmax right 50%;
+    height: 90vh;
+    border-radius: 0 100px 0 100px;
+    margin-top: 40vmax;
+}
+.section__sai .main-image- img {
+    position: relative;
+    margin-top: -30vmax;
+}
+
+.section__sai .articles-section-main h1{
+    font-size: 34px;
+    margin-bottom: 5vmin;
+}
+.section__sai .articles-section-main p {
+    color: #cecece;
+}
+
+/* FOOTER CONTENT */
+.attribution {
+    display: none;
+}
+
+.footer-content {
+    background: hsl(240, 10%, 16%);
+    padding: 15vmax 0;
+    text-align: center;
+    border-radius: 0 100px 0 0;
+    margin-top: 20vh;
+}
+.list-items {
+    list-style: none;
+    color: #fff;
+    font-weight: 600;
+}
+.list-items__logo {
+    margin-bottom: 10vmax;
+}
+.list-items__subitems {
+    margin: 5vmax 0;
+    color: hsl(240, 2%, 79%);
+    font-weight: normal;
+    line-height: 1.7;
+}
